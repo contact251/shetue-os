@@ -77,4 +77,26 @@ Zoho Books → Export Data → Google Sheets → Review → Store in GitHub
 
 * Zoho Books = Source of Truth
 * GitHub = Template + Structure only
+  ## How to Use
+
+1. Setup Zoho Books with Chart of Accounts
+2. Input Opening Balance
+3. Record daily transactions
+4. Export reports (P&L, Balance Sheet)
+5. Update Google Sheets dashboard
+6. Track close progress using Close Tracker
+
+## Monthly Close Process
+
+* T+1: Cash & Bank Reconciliation
+* T+2: Revenue & Expense Check
+* T+3: Trial Balance Verification
+* T+4: Report Generation
+* T+5: Final Close
+
+## System Rule
+
+* Zoho Books = Source of Truth
+* GitHub = Template + Structure only
+
 
