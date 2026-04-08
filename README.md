@@ -1,102 +1,104 @@
-# Shetue OS — Finance & Close Management System
+# 🧠 Shetue OS — Finance & Close Management System
 
-## Overview
+## 📌 Overview
 
-Shetue OS is a simple, template-based finance system built on Zoho Books for managing accounting, monthly close, and reporting across multiple business divisions.
+Shetue OS is a simple, template-based finance system built on **Zoho Books** to manage accounting, monthly close, and reporting across multiple business divisions.
 
-## Core Components
+---
 
-* Zoho Books (Accounting)
-* Google Sheets (Dashboard)
-* GitHub (Structure & Version Control)
+## ⚙️ Core Components
 
-## Folder Structure
+* **Zoho Books** → Accounting (Source of Truth)
+* **Google Sheets** → Dashboard & Analysis
+* **GitHub** → Structure, Templates & Version Control
 
-### /dashboard
+---
 
-Contains:
+## 📁 Folder Structure
+
+### `/dashboard`
 
 * Close Tracker
 * KPI Dashboard
 
-### /zoho
-
-Contains:
+### `/zoho`
 
 * Chart of Accounts
 * Opening Balance Templates
 * Import-ready CSV files
 
-### /reports
-
-Contains:
+### `/reports`
 
 * Monthly Close Format
 * VAT Summary Format
 
-### /docs
-
-Contains:
+### `/docs`
 
 * Process Guides
-* Standard Operating Procedures
+* Standard Operating Procedures (SOPs)
 
-## Workflow
+---
 
-Zoho Books → Export Data → Google Sheets → Review → Store in GitHub
+## 🔄 Workflow
 
-## Rules
+Zoho Books → Export Data → Google Sheets → Review → Store Templates in GitHub
 
-* No real financial data stored in GitHub
-* Only templates and structure
-* One source of truth = Zoho Books
+---
 
-## Future Plan
+## 📏 System Rules
 
-* Automation scripts
-* AI reporting
-* WhatsApp alerts
-* ## How to Use
+* ❌ No real financial data stored in GitHub
+* ✅ Only templates, formats, and structure
+* 🎯 Single Source of Truth = **Zoho Books**
+
+---
+
+## 🧩 How to Use
 
 1. Setup Zoho Books with Chart of Accounts
-2. Input Opening Balance
+2. Input Opening Balances
 3. Record daily transactions
 4. Export reports (P&L, Balance Sheet)
 5. Update Google Sheets dashboard
-6. Track close progress using Close Tracker
+6. Track progress using Close Tracker
 
-## Monthly Close Process
+---
 
-* T+1: Cash & Bank Reconciliation
-* T+2: Revenue & Expense Check
-* T+3: Trial Balance Verification
-* T+4: Report Generation
-* T+5: Final Close
+## 📅 Monthly Close Process
 
-## System Rule
+* **T+1** → Cash & Bank Reconciliation
+* **T+2** → Revenue & Expense Check
+* **T+3** → Trial Balance Verification
+* **T+4** → Report Generation
+* **T+5** → Final Close
 
-* Zoho Books = Source of Truth
-* GitHub = Template + Structure only
-  ## How to Use
+---
 
-1. Setup Zoho Books with Chart of Accounts
-2. Input Opening Balance
-3. Record daily transactions
-4. Export reports (P&L, Balance Sheet)
-5. Update Google Sheets dashboard
-6. Track close progress using Close Tracker
+## 🚀 Future Plan
 
-## Monthly Close Process
+* Automation scripts (n8n integration)
+* AI-based reporting
+* WhatsApp alert system
 
-* T+1: Cash & Bank Reconciliation
-* T+2: Revenue & Expense Check
-* T+3: Trial Balance Verification
-* T+4: Report Generation
-* T+5: Final Close
+---
 
-## System Rule
+## 🧠 System Principle
 
-* Zoho Books = Source of Truth
-* GitHub = Template + Structure only
+* **Zoho Books = Data Source**
+* **GitHub = System Structure**
+* **Google Sheets = Reporting Layer**
 
+---
 
+## 📌 Status
+
+🟡 In Setup Phase
+
+---
+
+## ✅ Next Steps
+
+* [ ] Upload Chart of Accounts template
+* [ ] Add Opening Balance CSV
+* [ ] Create Close Tracker (Google Sheets)
+* [ ] Document full SOP in `/docs`
