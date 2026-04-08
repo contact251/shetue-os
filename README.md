@@ -13,7 +13,6 @@ Shetue OS is a simple, template-based finance system built on **Zoho Books** to 
 * **GitHub** → Structure, Templates & Version Control
 
 ---
-
 ## 📁 Folder Structure
 
 ### `/dashboard`
@@ -41,7 +40,8 @@ Shetue OS is a simple, template-based finance system built on **Zoho Books** to 
 
 ## 🔄 Workflow
 
-Zoho Books → Export Data → Google Sheets → Review → Store Templates in GitHub
+Zoho Books → Export Data → Google Sheets → Review → Store in GitHub
+
 
 ---
 
