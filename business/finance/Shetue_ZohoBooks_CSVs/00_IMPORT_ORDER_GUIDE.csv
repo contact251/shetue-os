@@ -1,0 +1,9 @@
+Step,File Name,Zoho Books Import Path,Critical Notes Before Import
+1,01_chart_of_accounts.csv,Accountant > Chart of Accounts > Import,Import this FIRST before anything else. All other records reference these accounts.
+2,02_customers.csv,Contacts > Customers > Import Customers,Check that Currency Code = BDT on every row before importing.
+3,03_vendors.csv,Contacts > Vendors > Import Vendors,Verify vendor names match exactly what you use on purchase bills.
+4,04_items.csv,Items > Import Items,Unit names (Litre / m3 / Kg / Bag / Box / Service) must already exist in Settings > Units.
+5,05_opening_stock.csv,Items > select item > Adjust Stock (manual per item),This file is a GUIDE only - Zoho opening stock must be entered item by item via Adjust Stock button. Date must be 01/01/2026.
+6,06_sales_invoices.csv,Sales > Invoices > Import Invoices,Customers in file must exist from step 2. Items must exist from step 4.
+7,07_purchase_bills.csv,Purchases > Bills > Import Bills,Vendors must exist from step 3. Items must exist from step 4.
+8,08_journal_entries.csv,Accountant > Manual Journals > Import,Import last. All accounts must exist. Verify debit = credit for each journal number.

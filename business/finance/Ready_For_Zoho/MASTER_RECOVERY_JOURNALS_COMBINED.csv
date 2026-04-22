@@ -1,0 +1,19 @@
+Date,Journal Number,Reference Number,Notes,Account Name,Debit,Credit,Division,Currency
+01/01/2026,FIX-FS,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,84388367,,Filling Station,BDT
+01/01/2026,FIX-FS,MASTER-RECOVERY,Clearing Inventory Asset,1300 - Inventory Asset,83039,,Filling Station,BDT
+01/01/2026,FIX-FS,MASTER-RECOVERY,Zeroing out Clearing Account,,84471406,1299 - Opening Balance Clearing,Filling Station,BDT
+01/01/2026,FIX-CNG,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,211148034,,CNG Refuelling,BDT
+01/01/2026,FIX-CNG,MASTER-RECOVERY,Clearing Inventory Asset,1310 - Inventory Asset (CNG),31639322,,CNG Refuelling,BDT
+01/01/2026,FIX-CNG,MASTER-RECOVERY,Zeroing out Clearing Account,,242787356,1299 - Opening Balance Clearing,CNG Refuelling,BDT
+01/01/2026,FIX-BRK,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,72107855,,Huq Bricks,BDT
+01/01/2026,FIX-BRK,MASTER-RECOVERY,Clearing Inventory Asset,13xx - Inventory Asset (Bricks),3608503,,Huq Bricks,BDT
+01/01/2026,FIX-BRK,MASTER-RECOVERY,Zeroing out Clearing Account,,75716358,1299 - Opening Balance Clearing,Huq Bricks,BDT
+01/01/2026,FIX-FEED,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,21113391,,Feed Mills,BDT
+01/01/2026,FIX-FEED,MASTER-RECOVERY,Zeroing out Clearing Account,,21113391,1299 - Opening Balance Clearing,Feed Mills,BDT
+01/01/2026,FIX-PHAR,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,17064493,,Pharmacy,BDT
+01/01/2026,FIX-PHAR,MASTER-RECOVERY,Zeroing out Clearing Account,,17064493,1299 - Opening Balance Clearing,Pharmacy,BDT
+01/01/2026,FIX-LPG,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,307573,,LPG Auto Gas,BDT
+01/01/2026,FIX-LPG,MASTER-RECOVERY,Clearing Inventory Asset,1320 - Inventory Asset (LPG),7433740,,LPG Auto Gas,BDT
+01/01/2026,FIX-LPG,MASTER-RECOVERY,Zeroing out Clearing Account,,7741313,1299 - Opening Balance Clearing,LPG Auto Gas,BDT
+01/01/2026,FIX-TECH,MASTER-RECOVERY,Clearing UCB Bank Balance,1100 - UCB Bank,2104216,,Shetue Tech,BDT
+01/01/2026,FIX-TECH,MASTER-RECOVERY,Zeroing out Clearing Account,,2104216,1299 - Opening Balance Clearing,Shetue Tech,BDT

@@ -1,0 +1,50 @@
+Invoice Number,Customer Name,Invoice Date,Due Date,Payment Terms,Item Name,Quantity,Rate,Discount,Tax Name,Notes,Tags - Divisions
+FUEL-2026-0001,Ahmed Transport Ltd,01/01/2026,16/01/2026,Net 15,Diesel,500,110.00,0,,Daily fleet diesel supply - Ref: ATL/PO/001,Filling Station
+FUEL-2026-0002,Bangladesh Road Transport Corp,01/01/2026,31/01/2026,Net 30,Diesel,2000,110.00,0,,BRTC fleet weekly diesel - Trip 1,Filling Station
+FUEL-2026-0002,Bangladesh Road Transport Corp,01/01/2026,31/01/2026,Net 30,Octane,300,122.00,0,,BRTC fleet weekly octane,Filling Station
+FUEL-2026-0003,Walk-in Cash Customer,02/01/2026,02/01/2026,Due on Receipt,Diesel,120,110.00,0,,Cash fuel sale - morning shift,Filling Station
+FUEL-2026-0003,Walk-in Cash Customer,02/01/2026,02/01/2026,Due on Receipt,Petrol,45,125.00,0,,Cash petrol sale - morning shift,Filling Station
+FUEL-2026-0003,Walk-in Cash Customer,02/01/2026,02/01/2026,Due on Receipt,Lubricant Oil,10,350.00,0,,Cash lubricant sale - morning shift,Filling Station
+FUEL-2026-0004,Mahbub Brothers Trading,03/01/2026,18/01/2026,Net 15,Diesel,800,110.00,0,,Bulk diesel delivery - Ref: MBT/001,Filling Station
+FUEL-2026-0005,Cox's Bazar Transport,05/01/2026,04/02/2026,Net 30,Diesel,1200,110.00,0,,Monthly fleet supply agreement,Filling Station
+FUEL-2026-0005,Cox's Bazar Transport,05/01/2026,04/02/2026,Net 30,Octane,200,122.00,0,,Monthly octane supply,Filling Station
+FUEL-2026-0006,Walk-in Cash Customer,07/01/2026,07/01/2026,Due on Receipt,Diesel,250,110.00,0,,Cash sale afternoon shift,Filling Station
+FUEL-2026-0007,Rahman Filling Station,10/01/2026,10/01/2026,Due on Receipt,Diesel,3000,108.00,0,,Bulk dealer rate - special price,Filling Station
+FUEL-2026-0008,Walk-in Cash Customer,12/01/2026,12/01/2026,Due on Receipt,Diesel,180,110.00,0,,Daily cash sales,Filling Station
+FUEL-2026-0008,Walk-in Cash Customer,12/01/2026,12/01/2026,Due on Receipt,Octane,60,122.00,0,,Daily cash sales,Filling Station
+CNG-2026-0001,Dhaka City CNG Service,02/01/2026,01/02/2026,Net 30,CNG Gas,500,42.00,0,,CNG supply for 50-vehicle fleet - weekly,CNG Refuelling
+CNG-2026-0002,Walk-in Cash Customer,02/01/2026,02/01/2026,Due on Receipt,CNG Gas,80,42.00,0,,Cash CNG sales daily total,CNG Refuelling
+CNG-2026-0003,Ahmed Transport Ltd,05/01/2026,20/01/2026,Net 15,CNG Gas,200,42.00,0,,CNG for converted trucks,CNG Refuelling
+CNG-2026-0004,Walk-in Cash Customer,07/01/2026,07/01/2026,Due on Receipt,CNG Gas,120,42.00,0,,Cash CNG sales daily total,CNG Refuelling
+CNG-2026-0005,Bangladesh Road Transport Corp,08/01/2026,07/02/2026,Net 30,CNG Gas,800,40.00,0,,Govt fleet bulk rate - monthly supply,CNG Refuelling
+CNG-2026-0006,Walk-in Cash Customer,10/01/2026,10/01/2026,Due on Receipt,CNG Gas,150,42.00,0,,Cash CNG sales daily total,CNG Refuelling
+LPG-2026-0001,Mahbub Brothers Trading,03/01/2026,18/01/2026,Net 15,LPG Gas,200,95.00,0,,LPG auto gas supply - Ref: MBT/LPG/001,LPG Auto Gas
+LPG-2026-0002,Walk-in Cash Customer,03/01/2026,03/01/2026,Due on Receipt,LPG Gas,50,95.00,0,,Cash LPG sales daily total,LPG Auto Gas
+LPG-2026-0003,Walk-in Cash Customer,06/01/2026,06/01/2026,Due on Receipt,LPG Gas,75,95.00,0,,Cash LPG sales daily,LPG Auto Gas
+LPG-2026-0004,Cox's Bazar Transport,08/01/2026,07/02/2026,Net 30,LPG Gas,300,93.00,0,,Bulk LPG supply - fleet customer discount,LPG Auto Gas
+FEED-2026-0001,Chittagong Fishing Coop,02/01/2026,17/01/2026,Net 15,Fish Feed Starter,30,1800.00,0,,Monthly feed supply for fish hatchery,Feed Mills
+FEED-2026-0001,Chittagong Fishing Coop,02/01/2026,17/01/2026,Net 15,Fish Feed Grower,50,1650.00,0,,Monthly feed supply - growing stage,Feed Mills
+FEED-2026-0002,Green Aqua Farm Ltd,03/01/2026,02/02/2026,Net 30,Fish Feed Grower,80,1650.00,0,,Monthly bulk feed order,Feed Mills
+FEED-2026-0002,Green Aqua Farm Ltd,03/01/2026,02/02/2026,Net 30,Fish Feed Finisher,60,1500.00,0,,Finisher feed for harvest batch,Feed Mills
+FEED-2026-0003,Sylhet Agro Farm,06/01/2026,05/02/2026,Net 30,Fish Feed Starter,20,1800.00,0,,New customer first order,Feed Mills
+FEED-2026-0003,Sylhet Agro Farm,06/01/2026,05/02/2026,Net 30,Fish Feed Grower,40,1650.00,0,,Grower feed order,Feed Mills
+FEED-2026-0004,Narsingdi Feed Center,08/01/2026,23/01/2026,Net 15,Fish Feed Starter,15,1800.00,0,,Distributor weekly order,Feed Mills
+FEED-2026-0004,Narsingdi Feed Center,08/01/2026,23/01/2026,Net 15,Fish Feed Finisher,25,1500.00,0,,Distributor weekly order,Feed Mills
+PH-2026-0001,Noakhali Medical Hall,02/01/2026,09/01/2026,Net 7,Paracetamol 500mg,20,120.00,0,,Wholesale medicine supply,Pharmacy
+PH-2026-0001,Noakhali Medical Hall,02/01/2026,09/01/2026,Net 7,Amoxicillin 500mg,10,280.00,0,,Antibiotic supply,Pharmacy
+PH-2026-0001,Noakhali Medical Hall,02/01/2026,09/01/2026,Net 7,Omeprazole 20mg,12,180.00,0,,Gastric medicine supply,Pharmacy
+PH-2026-0002,Walk-in Cash Customer,03/01/2026,03/01/2026,Due on Receipt,Paracetamol 500mg,3,120.00,0,,Retail sale,Pharmacy
+PH-2026-0002,Walk-in Cash Customer,03/01/2026,03/01/2026,Due on Receipt,Antacid Suspension,2,95.00,0,,Retail sale,Pharmacy
+PH-2026-0003,Lakshmipur Drug Store,05/01/2026,12/01/2026,Net 7,Paracetamol 500mg,15,120.00,0,,Wholesale supply - regular order,Pharmacy
+PH-2026-0003,Lakshmipur Drug Store,05/01/2026,12/01/2026,Net 7,Azithromycin 500mg,8,350.00,0,,Antibiotic supply,Pharmacy
+PH-2026-0003,Lakshmipur Drug Store,05/01/2026,12/01/2026,Net 7,Vitamin C 500mg,10,140.00,0,,Supplement supply,Pharmacy
+PH-2026-0004,Walk-in Cash Customer,07/01/2026,07/01/2026,Due on Receipt,Metformin 500mg,2,160.00,0,,Retail prescription sale,Pharmacy
+PH-2026-0004,Walk-in Cash Customer,07/01/2026,07/01/2026,Due on Receipt,Amlodipine 5mg,1,220.00,0,,Retail prescription sale,Pharmacy
+PH-2026-0005,Noakhali Medical Hall,09/01/2026,16/01/2026,Net 7,Saline Normal 1L,5,180.00,0,,Medical supply - urgent order,Pharmacy
+PH-2026-0005,Noakhali Medical Hall,09/01/2026,16/01/2026,Net 7,Metformin 500mg,10,160.00,0,,Diabetes medication supply,Pharmacy
+TECH-2026-0001,Tech Solutions BD,01/01/2026,31/01/2026,Net 30,IT Support Monthly,1,3000.00,0,,January monthly IT support contract,Shetue Tech
+TECH-2026-0002,Tech Solutions BD,01/01/2026,31/01/2026,Net 30,Internet Service Business,1,1500.00,0,,January business internet subscription,Shetue Tech
+TECH-2026-0003,Walk-in Cash Customer,03/01/2026,03/01/2026,Due on Receipt,Internet Service Monthly,3,500.00,0,,3 residential internet subscriptions - cash,Shetue Tech
+TECH-2026-0004,Chittagong Fishing Coop,05/01/2026,04/02/2026,Net 30,Network Setup,1,8000.00,0,,Office network installation project,Shetue Tech
+TECH-2026-0005,Walk-in Cash Customer,08/01/2026,08/01/2026,Due on Receipt,IT Support Hourly,2,800.00,0,,On-site tech support 2 hours,Shetue Tech
+TECH-2026-0006,Mahbub Brothers Trading,10/01/2026,09/02/2026,Net 30,Website Design,1,15000.00,0,,Company website design project,Shetue Tech

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shetue OS - Project Tracking</title>
+  <meta name="description" content="Shetue OS Project and Task Tracker Dashboard">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Remix icons for aesthetics -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo"><i class="ri-window-fill"></i></div>
+        <h2>Shetue OS</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active"><i class="ri-dashboard-line"></i> Dashboard</a>
+        <a href="#" class="nav-item"><i class="ri-folder-2-line"></i> Projects</a>
+        <a href="#" class="nav-item"><i class="ri-task-line"></i> Tasks</a>
+        <a href="#" class="nav-item"><i class="ri-team-line"></i> Team</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="user-profile">
+          <div class="avatar"><i class="ri-user-smile-line"></i></div>
+          <div class="user-info">
+            <span class="user-name">Shetue Admin</span>
+            <span class="user-role">Workspace Owner</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="top-header">
+        <div class="header-title">
+          <h1>Project & Task Tracker</h1>
+          <p>Welcome back! Here's your overview of the Notion database.</p>
+        </div>
+        <div class="header-actions">
+          <div class="search-bar">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search projects, tasks...">
+          </div>
+          <button class="icon-btn"><i class="ri-notification-3-line"></i></button>
+        </div>
+      </header>
+
+      <div class="dashboard-stats">
+        <div class="stat-card glass-panel orange-glow">
+          <div class="stat-icon"><i class="ri-folder-chart-line"></i></div>
+          <div class="stat-details">
+            <h3>Total Projects</h3>
+            <h2 id="total-projects">0</h2>
+          </div>
+        </div>
+        <div class="stat-card glass-panel blue-glow">
+          <div class="stat-icon"><i class="ri-loader-4-line"></i></div>
+          <div class="stat-details">
+            <h3>In Progress</h3>
+            <h2 id="in-progress-projects">0</h2>
+          </div>
+        </div>
+        <div class="stat-card glass-panel green-glow">
+          <div class="stat-icon"><i class="ri-checkbox-circle-line"></i></div>
+          <div class="stat-details">
+            <h3>Tasks Completed</h3>
+            <h2 id="tasks-completed">0</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-grid">
+        <!-- Projects Section -->
+        <section class="projects-section glass-panel">
+          <div class="section-header">
+            <h2>Active Projects</h2>
+            <button class="btn-primary"><i class="ri-add-line"></i> New Project</button>
+          </div>
+          <div class="projects-list" id="projects-container">
+            <!-- Rendered via JS -->
+          </div>
+        </section>
+
+        <!-- Tasks Section -->
+        <section class="tasks-section glass-panel">
+          <div class="section-header">
+            <h2>Upcoming Tasks</h2>
+            <button class="btn-text">View All</button>
+          </div>
+          <div class="tasks-list" id="tasks-container">
+            <!-- Rendered via JS -->
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

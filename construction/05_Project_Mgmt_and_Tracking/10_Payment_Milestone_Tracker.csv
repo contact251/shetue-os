@@ -1,0 +1,4 @@
+Work Order ID,Contractor Name,Scope,Total Value (BDT),Adv (30%),Mid (40%),Final (30%),Paid,Due,Payment Status
+CON-PAINT-001,[Contractor Name],Exterior & Interior Painting,"189,000","56,700","75,600","56,700",0,"189,000",Unpaid
+CON-ELEC-001,[Contractor Name],Electrical Wiring & Fixtures,"150,000","45,000","60,000","45,000",0,"150,000",Unpaid
+CON-TILES-001,[Contractor Name],Flooring and Tiling,"200,000","60,000","80,000","60,000",0,"200,000",Unpaid

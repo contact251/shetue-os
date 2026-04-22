@@ -1,0 +1,49 @@
+/* Pharmacy Specific Styling */
+
+.pharmacy-theme {
+    background-image: radial-gradient(circle at top right, rgba(16, 185, 129, 0.1) 0%, transparent 40%),
+                      radial-gradient(circle at bottom left, rgba(52, 211, 153, 0.05) 0%, transparent 40%);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--border-light);
+    width: 300px;
+}
+.search-box input {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.s-ok { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+.s-low { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+.s-exp { background: rgba(239, 68, 68, 0.15); color: #f87171; }
+
+.tip-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #10b981;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.tip-link:hover { text-decoration: underline; }
+
+.q-btn.primary {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), transparent);
+    border-color: rgba(16, 185, 129, 0.4);
+}

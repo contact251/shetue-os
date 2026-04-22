@@ -1,0 +1,11 @@
+MULTI AGENT SYSTEM
+
+Agents:
+1. Finance Agent
+2. Business Agent
+3. Security Agent
+4. Health Agent
+
+Each agent analyzes its domain and reports.
+
+Master AI combines outputs and gives final decision.

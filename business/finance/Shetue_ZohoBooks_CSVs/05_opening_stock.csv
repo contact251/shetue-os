@@ -1,0 +1,19 @@
+Item Name,Quantity Adjusted,Adjustment Date,Rate (Cost Price),Description,Reason
+Diesel,12000.00,01/01/2026,105.00,Opening stock as at 01 January 2026 - physical dip reading,Opening Balance
+Octane,3500.00,01/01/2026,116.00,Opening stock as at 01 January 2026 - physical dip reading,Opening Balance
+Petrol,2000.00,01/01/2026,119.00,Opening stock as at 01 January 2026 - physical dip reading,Opening Balance
+Lubricant Oil,180.00,01/01/2026,280.00,Opening stock as at 01 January 2026 - physical count,Opening Balance
+CNG Gas,800.00,01/01/2026,35.00,Opening stock as at 01 January 2026 - meter reading,Opening Balance
+LPG Gas,650.00,01/01/2026,82.00,Opening stock as at 01 January 2026 - physical cylinder count,Opening Balance
+Fish Feed Starter,120.00,01/01/2026,1450.00,Opening stock as at 01 January 2026 - warehouse count,Opening Balance
+Fish Feed Grower,200.00,01/01/2026,1320.00,Opening stock as at 01 January 2026 - warehouse count,Opening Balance
+Fish Feed Finisher,280.00,01/01/2026,1200.00,Opening stock as at 01 January 2026 - warehouse count,Opening Balance
+Paracetamol 500mg,80.00,01/01/2026,85.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Amoxicillin 500mg,45.00,01/01/2026,195.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Azithromycin 500mg,30.00,01/01/2026,245.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Metformin 500mg,55.00,01/01/2026,110.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Omeprazole 20mg,40.00,01/01/2026,125.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Amlodipine 5mg,35.00,01/01/2026,155.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Antacid Suspension,70.00,01/01/2026,65.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Vitamin C 500mg,60.00,01/01/2026,95.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance
+Saline Normal 1L,25.00,01/01/2026,130.00,Opening stock as at 01 January 2026 - pharmacy shelf count,Opening Balance

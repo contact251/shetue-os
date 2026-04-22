@@ -1,0 +1,150 @@
+{
+  "name": "Shetue OS: Notion to Zoho Books Auto-Sync",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "event": "pagedUpdatedInDatabase",
+        "databaseId": "ENTER_YOUR_NOTION_TASK_DATABASE_ID"
+      },
+      "id": "c1f71df8-8123-4567-b890-12345abcdef1",
+      "name": "Notion Trigger (Task Updated)",
+      "type": "n8n-nodes-base.notionTrigger",
+      "typeVersion": 1,
+      "position": [
+        100,
+        300
+      ],
+      "notesInFlow": true,
+      "notes": "Watches your Notion Project Tracker for changes."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json['properties']['Status']['status']['name']}}",
+              "operation": "equal",
+              "value2": "✅ Completed"
+            },
+            {
+              "value1": "={{$json['properties']['Type']['select']['name']}}",
+              "operation": "equal",
+              "value2": "Financial/Expense"
+            }
+          ]
+        }
+      },
+      "id": "d2e82df8-8123-4567-b890-12345abcdef2",
+      "name": "Filter: Only Completed Financial Tasks",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        350,
+        300
+      ],
+      "notesInFlow": true,
+      "notes": "Ensures we only send data to Zoho if the Notion task is relevant to accounts."
+    },
+    {
+      "parameters": {
+        "resource": "expense",
+        "operation": "create",
+        "organizationId": "ENTER_YOUR_ZOHO_ORG_ID",
+        "amount": "={{$json['properties']['Amount']['number']}}",
+        "accountId": "ENTER_ZOHO_CHART_OF_ACCOUNT_ID",
+        "date": "={{$json['properties']['Date']['date']['start']}}",
+        "description": "={{$json['properties']['Task Name']['title'][0]['plain_text']}} - Synced via n8n"
+      },
+      "id": "e3f93df8-8123-4567-b890-12345abcdef3",
+      "name": "Create Zoho Books Record",
+      "type": "n8n-nodes-base.zohoBooks",
+      "typeVersion": 1,
+      "position": [
+        650,
+        150
+      ],
+      "notesInFlow": true,
+      "notes": "Creates the actual financial transaction in Zoho Books instantly."
+    },
+    {
+      "parameters": {
+        "resource": "page",
+        "operation": "update",
+        "pageId": "={{$node[\"Notion Trigger (Task Updated)\"].json[\"id\"]}}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Zoho Sync Status|checkbox",
+              "checkboxValue": true
+            }
+          ]
+        }
+      },
+      "id": "f4g04df8-8123-4567-b890-12345abcdef4",
+      "name": "Notion: Mark as Synced",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2,
+      "position": [
+        900,
+        150
+      ],
+      "notesInFlow": true,
+      "notes": "Updates Notion database so you know it successfully hit Zoho."
+    }
+  ],
+  "connections": {
+    "Notion Trigger (Task Updated)": {
+      "main": [
+        [
+          {
+            "node": "Filter: Only Completed Financial Tasks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter: Only Completed Financial Tasks": {
+      "main": [
+        [
+          {
+            "node": "Create Zoho Books Record",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Zoho Books Record": {
+      "main": [
+        [
+          {
+            "node": "Notion: Mark as Synced",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "tags": [
+    {
+      "createdAt": "2026-04-19T00:00:00.000Z",
+      "updatedAt": "2026-04-19T00:00:00.000Z",
+      "id": "shetue-os-sync",
+      "name": "Finance Sync"
+    }
+  ]
+}

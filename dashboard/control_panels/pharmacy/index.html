@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy & Health | Shetue OS</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="pharmacy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="division-body pharmacy-theme">
+    <div class="os-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="brand">
+                <div class="brand-icon" style="background: linear-gradient(135deg, #10b981, #34d399); box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);"><i class="ri-capsule-line"></i></div>
+                <h1>Pharmacy OS</h1>
+            </div>
+            
+            <nav class="nav-menu">
+                <p class="nav-title">INVENTORY</p>
+                <a href="#" class="nav-link active"><i class="ri-hospital-line"></i> Med Stock Hub</a>
+                <a href="#" class="nav-link"><i class="ri-alarm-warning-line"></i> Expiry Alerts</a>
+                <a href="#" class="nav-link"><i class="ri-shopping-cart-2-line"></i> Sales Counter</a>
+                <a href="#" class="nav-link"><i class="ri-user-heart-line"></i> Patient Logs</a>
+            </nav>
+            
+            <div style="flex:1"></div>
+            <a href="../../index.html" class="nav-link" style="color:#ef4444; border:1px solid rgba(239, 68, 68, 0.2);"><i class="ri-arrow-left-box-line"></i> Back to Master OS</a>
+        </aside>
+
+        <!-- Main Dashboard -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="header-title">
+                    <h2 style="font-family: var(--font-display); font-weight: 600;">Pharmacy Inventory & Health</h2>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Monitoring critical stock levels and scheduled maintenance.</p>
+                </div>
+                <div class="header-widgets">
+                    <span class="status-badge sync-active"><i class="ri-heart-pulse-line"></i> Compliance: 100% Verified</span>
+                </div>
+            </header>
+
+            <div class="dashboard-scroll">
+                
+                <!-- KPI Widgets -->
+                <div class="metric-grid">
+                    <div class="metric-card glass-panel" style="--accent: #10b981;">
+                        <div class="metric-header">
+                            <h3><i class="ri-medicine-bottle-line"></i> Items in Stock</h3>
+                        </div>
+                        <h1 class="metric-value">482 Items</h1>
+                        <p class="metric-footer text-green">12 Restocked today</p>
+                    </div>
+
+                    <div class="metric-card glass-panel" style="--accent: #f59e0b;">
+                        <div class="metric-header">
+                            <h3><i class="ri-alert-line"></i> Low Stock Warning</h3>
+                        </div>
+                        <h1 class="metric-value">08 Items</h1>
+                        <p class="metric-footer text-yellow">Requires Urgent Order</p>
+                    </div>
+
+                    <div class="metric-card glass-panel" style="--accent: #ef4444;">
+                        <div class="metric-header">
+                            <h3><i class="ri-close-circle-line"></i> Near-Expiry Items</h3>
+                        </div>
+                        <h1 class="metric-value">03 Batches</h1>
+                        <p class="metric-footer text-red">Expiry within 30 days</p>
+                    </div>
+                </div>
+
+                <!-- Med Inventory Table -->
+                <div class="content-split">
+                    <section class="log-section glass-panel">
+                        <div class="section-top">
+                            <h3>Medicine Inventory Hub</h3>
+                            <div class="search-box">
+                                <i class="ri-search-line"></i>
+                                <input type="text" placeholder="Search medicine name..." id="med-search">
+                            </div>
+                        </div>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Medicine Name</th>
+                                        <th>Category</th>
+                                        <th>Stock Quantity</th>
+                                        <th>Expiry Date</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="med-table">
+                                    <!-- Dynamic content -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="side-panel">
+                        <div class="glass-panel widget-box">
+                            <h3>Critical Health Tip</h3>
+                            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+                                "Ensure high-demand antibiotics are stored in specific temperatures (2-8°C) to maintain potency."
+                            </p>
+                            <a href="../../docs/Diabetes_Diet_Plan_Noakhali.md" target="_blank" class="tip-link">View Diabetes Diet Guide <i class="ri-arrow-right-line"></i></a>
+                        </div>
+
+                        <div class="glass-panel widget-box">
+                            <h3>Inventory Actions</h3>
+                            <div class="action-grid">
+                                <button class="q-btn primary"><i class="ri-add-box-line"></i> Add New Batch</button>
+                                <button class="q-btn"><i class="ri-printer-line"></i> Print Stock Report</button>
+                                <button class="q-btn"><i class="ri-delete-bin-line"></i> Remove Expired</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="pharmacy.js"></script>
+</body>
+</html>

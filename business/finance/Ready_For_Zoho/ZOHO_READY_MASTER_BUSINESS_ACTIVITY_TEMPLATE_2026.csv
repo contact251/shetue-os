@@ -1,0 +1,13 @@
+Date,Account,Debit,Credit,Description,Division
+01/01/2026,1300 - Inventory Asset,1125000.0,0.0,Octane Purchase from Padma Oil,Filling Station
+01/01/2026,1100 - UCB Bank,0.0,1125000.0,Octane Purchase from Padma Oil,Filling Station
+01/01/2026,1000 - Cash on Hand,15000.0,0.0,Medicine Sales to Customer,Pharmacy
+01/01/2026,4000 - Sales Revenue,0.0,15000.0,Medicine Sales to Customer,Pharmacy
+02/01/2026,6000 - Operating Expense,2500.0,0.0,Internet Bill Payment,Shetue Tech
+02/01/2026,1000 - Cash on Hand,0.0,2500.0,Internet Bill Payment,Shetue Tech
+02/01/2026,1300 - Inventory Asset,280000.0,0.0,Raw Material (Maize) Purchase,Feed Mills
+02/01/2026,2000 - Accounts Payable,0.0,280000.0,Raw Material (Maize) Purchase,Feed Mills
+03/01/2026,1000 - Cash on Hand,486000.0,0.0,Diesel Sales (Daily Total),Filling Station
+03/01/2026,4000 - Sales Revenue,0.0,486000.0,Diesel Sales (Daily Total),Filling Station
+04/01/2026,1100 - UCB Bank,250000.0,0.0,Daily Cash Deposit to UCB,CNG Refuelling
+04/01/2026,1000 - Cash on Hand,0.0,250000.0,Daily Cash Deposit to UCB,CNG Refuelling

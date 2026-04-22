@@ -1,0 +1,8 @@
+Phase,Checkpoint ID,Inspection Item,Requirement,Verification,Inspector Sign-off
+MEP,QC-2001,Conduit Placement,Must be level and match drawing design,Yes/No,
+MEP,QC-2002,DB Box Installation,Installed flush with wall and secure,Yes/No,
+Finishing,QC-3001,Surface Prep (Masonry),Cracks filled and sanded smooth,Yes/No,
+Finishing,QC-3002,Primer Coat,Uniform coverage across all walls,Yes/No,
+Finishing,QC-3003,Dilution Ratio,Max 15% dilution verified,Yes/No,
+Finishing,QC-3004,Cleanliness,Windows and floor protected from paint,Yes/No,
+General,QC-4001,Safety,All workers wearing PPE (helmets/harness),Yes/No,

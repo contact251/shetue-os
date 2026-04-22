@@ -1,0 +1,275 @@
+SHETUE COMMAND CENTER – MASTER SYSTEM GUIDE (ALL-IN-ONE)
+
+==================================================
+
+1. SYSTEM IDENTITY
+   ==================================================
+
+You are not a user.
+You are a SYSTEM BUILDER.
+
+Your system:
+Shetue Command Center =
+Personal OS + Business ERP + AI Brain + Control Dashboard
+
+Goal:
+Build a unified system to control life, business, and decisions.
+
+==================================================
+2. CORE PHILOSOPHY
+==================
+
+* System > Tools
+* Automation > Manual Work
+* Data > Assumption
+* Consistency > Perfection
+* Control > Chaos
+
+Rule:
+"If it's not in the system, it doesn't exist."
+
+==================================================
+3. FULL SYSTEM ARCHITECTURE
+===========================
+
+Frontend:
+→ App (Google AI Studio / React)
+
+Backend:
+→ Node.js (Express API)
+
+Database:
+→ Notion (Main Brain)
+
+Automation:
+→ n8n (VPS)
+
+AI Layer:
+→ Gemini (Insights)
+
+External:
+→ Zoho | Google | WhatsApp | Hosting
+
+Flow:
+User → Notion → API → App → AI → Automation → Decision
+
+==================================================
+4. NOTION SYSTEM (DATABASE RULE)
+================================
+
+Structure:
+01_System → Active data
+02_Archive → Old data
+03_Resources → Knowledge
+
+Core Databases:
+
+* Business
+* Finance
+* Tasks
+* Security
+* Health
+* Contacts
+
+Rules:
+
+* No duplicate data
+* Clean naming
+* Relation must be used
+
+==================================================
+5. APP SYSTEM (DASHBOARD)
+=========================
+
+Features:
+
+* Finance summary
+* Security alerts
+* Health status
+* Task overview
+
+Rule:
+App = View layer only
+
+==================================================
+6. BACKEND SYSTEM (IMPORTANT)
+=============================
+
+File:
+server.ts
+
+Responsibilities:
+
+* Fetch Notion data
+* Process data
+* Send to frontend
+
+API:
+GET /api/notion
+
+Rules:
+
+* Always log errors
+* Validate inputs
+* Handle fallback
+
+==================================================
+7. NOTION API SETUP
+===================
+
+Required:
+
+* NOTION_API_KEY
+* NOTION_DATABASE_ID
+
+Rules:
+
+* Use Secrets panel (NOT .env in AI Studio)
+* Database must be shared with integration
+
+Common Error:
+Invalid request URL = Wrong DB ID
+
+==================================================
+8. AUTOMATION SYSTEM (n8n)
+==========================
+
+Flow:
+Notion → Trigger → Action
+
+Examples:
+
+* New expense → WhatsApp alert
+* Task created → Notification
+
+Rule:
+Automate repetitive work
+
+==================================================
+9. AI SYSTEM (GEMINI)
+=====================
+
+Use:
+
+* Insights
+* Suggestions
+* Reports
+
+Example:
+"Your expenses increased by 20%"
+
+==================================================
+10. DAILY SYSTEM (DISCIPLINE)
+=============================
+
+Morning:
+
+* Check dashboard (5 min)
+
+Day:
+
+* Update data
+
+Night:
+
+* Review + plan
+
+Rule:
+No data → No control
+
+==================================================
+11. WEEKLY SYSTEM
+=================
+
+* Finance review
+* Security check
+* Task cleanup
+* Strategy update
+
+==================================================
+12. DEBUGGING MINDSET
+=====================
+
+If error:
+
+1. Check input
+2. Check ENV
+3. Check API
+4. Check logs
+
+Golden Rule:
+"Problem is always in input or config"
+
+==================================================
+13. SECURITY RULE
+=================
+
+* Never expose API key
+* Use 2FA
+* Monitor access
+* Log incidents
+
+==================================================
+14. SCALING PLAN
+================
+
+Phase 1:
+
+* Notion + App + API
+
+Phase 2:
+
+* Automation
+
+Phase 3:
+
+* AI Insights
+
+Phase 4:
+
+* Team system
+
+==================================================
+15. VS CODE WORKFLOW
+====================
+
+Project:
+
+* server.ts (backend)
+* App.tsx (frontend)
+
+Run:
+npm install
+npm run dev
+
+Test:
+http://localhost:3000/api/notion
+
+==================================================
+16. GOOGLE AI STUDIO RULE
+=========================
+
+* Use prompt to build UI
+* Use Secrets panel
+* Avoid .env file
+
+==================================================
+17. FINAL SYSTEM DEFINITION
+===========================
+
+Notion = Brain
+App = Eyes
+n8n = Hands
+AI = Intelligence
+You = Decision Maker
+
+==================================================
+18. FINAL RULE
+==============
+
+You are not managing tasks.
+You are controlling systems.
+
+==================================================
+END
+===

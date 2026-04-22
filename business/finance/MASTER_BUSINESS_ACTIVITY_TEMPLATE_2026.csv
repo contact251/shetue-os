@@ -1,0 +1,7 @@
+Date,Activity Type,Division,Description,Quantity,Total Amount,Payment Mode
+01/01/2026,Purchase,Filling Station,Octane Purchase from Padma Oil,9000 Liters,1125000,Bank
+01/01/2026,Sales,Pharmacy,Medicine Sales to Customer,,15000,Cash
+02/01/2026,Expense,Shetue Tech,Internet Bill Payment,,2500,Cash
+02/01/2026,Purchase,Feed Mills,Raw Material (Maize) Purchase,10 Tons,280000,Credit
+03/01/2026,Sales,Filling Station,Diesel Sales (Daily Total),4500 Liters,486000,Cash
+04/01/2026,Bank Deposit,CNG Refuelling,Daily Cash Deposit to UCB,,250000,Bank

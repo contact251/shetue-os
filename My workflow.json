@@ -1,0 +1,33 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "http://72.61.151.10:5678/webhook/file-upload",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d1e1f907-8e22-49e9-aadc-0740d99c9f26",
+      "name": "Webhook",
+      "webhookId": "12615af4-dfc6-4508-bfa2-6ac7f03eed35"
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "8fc031d6-dbba-4f18-91f9-b5668e266395",
+  "meta": {
+    "instanceId": "b7eba1db17ba72743e66fa40ff4e817b3102a212a12c7027c489c2a872c49518"
+  },
+  "id": "oC6MYDTXjXI6xirnt2ZrB",
+  "tags": []
+}

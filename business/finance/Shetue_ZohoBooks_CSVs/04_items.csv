@@ -1,0 +1,26 @@
+Item Name,Item Type,Unit,Selling Price,Purchase Price,Account,Purchase Account,Inventory Account,Reorder Level,Description,Is Returnable,Product Type
+Diesel,Inventory,Litre,110.00,105.00,Fuel Sales,Fuel Purchase,Inventory Asset,3000,High speed diesel fuel for vehicles and generators,true,Goods
+Octane,Inventory,Litre,122.00,116.00,Fuel Sales,Fuel Purchase,Inventory Asset,2000,High octane petrol for motorcycles and cars,true,Goods
+Petrol,Inventory,Litre,125.00,119.00,Fuel Sales,Fuel Purchase,Inventory Asset,1500,Standard petrol for passenger vehicles,true,Goods
+Lubricant Oil,Inventory,Litre,350.00,280.00,Fuel Sales,Fuel Purchase,Inventory Asset,200,Engine lubricant and motor oil - various grades,true,Goods
+CNG Gas,Inventory,m3,42.00,35.00,CNG Sales,Gas Purchase,Inventory Asset,500,Compressed natural gas for CNG-converted vehicles,false,Goods
+LPG Gas,Inventory,Kg,95.00,82.00,LPG Sales,LPG Purchase,Inventory Asset,300,Liquefied petroleum gas for auto fuel and cooking,true,Goods
+Fish Feed Starter,Inventory,Bag,1800.00,1450.00,Feed Sales,Feed Raw Materials,Inventory Asset,100,Fish feed for fingerlings and young fry stage (25 Kg bag),true,Goods
+Fish Feed Grower,Inventory,Bag,1650.00,1320.00,Feed Sales,Feed Raw Materials,Inventory Asset,150,Fish feed for growing stage fish (25 Kg bag),true,Goods
+Fish Feed Finisher,Inventory,Bag,1500.00,1200.00,Feed Sales,Feed Raw Materials,Inventory Asset,200,Fish feed for final growth and harvest stage (25 Kg bag),true,Goods
+Paracetamol 500mg,Inventory,Box,120.00,85.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,50,Paracetamol 500mg tablets - 100 tablets per box,true,Goods
+Amoxicillin 500mg,Inventory,Box,280.00,195.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,30,Amoxicillin antibiotic capsules 500mg - 30 capsules per box,true,Goods
+Azithromycin 500mg,Inventory,Box,350.00,245.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,20,Azithromycin antibiotic 500mg - 10 tablets per box,true,Goods
+Metformin 500mg,Inventory,Box,160.00,110.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,40,Metformin for diabetes management 500mg - 60 tablets per box,true,Goods
+Omeprazole 20mg,Inventory,Box,180.00,125.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,30,Omeprazole for acid reflux 20mg - 30 capsules per box,true,Goods
+Amlodipine 5mg,Inventory,Box,220.00,155.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,25,Amlodipine for hypertension 5mg - 30 tablets per box,true,Goods
+Antacid Suspension,Inventory,Box,95.00,65.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,60,Antacid suspension 200ml bottle,true,Goods
+Vitamin C 500mg,Inventory,Box,140.00,95.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,50,Vitamin C supplement 500mg - 100 tablets per box,true,Goods
+Saline Normal 1L,Inventory,Box,180.00,130.00,Pharmacy Sales,Medicine Purchase,Inventory Asset,20,Normal saline IV infusion 1 litre per bag - 10 bags per box,true,Goods
+Internet Service Monthly,Service,Service,500.00,0.00,Tech Income,,,0,Monthly broadband internet subscription - residential,false,Service
+Internet Service Business,Service,Service,1500.00,0.00,Tech Income,,,0,Monthly broadband internet subscription - business plan,false,Service
+Software Development,Service,Service,5000.00,0.00,Tech Income,,,0,Custom software development service - per project billing,false,Service
+Website Design,Service,Service,15000.00,0.00,Tech Income,,,0,Business website design and development package,false,Service
+IT Support Monthly,Service,Service,3000.00,0.00,Tech Income,,,0,Monthly IT support and maintenance contract,false,Service
+IT Support Hourly,Service,Service,800.00,0.00,Tech Income,,,0,On-demand IT support billed per hour,false,Service
+Network Setup,Service,Service,8000.00,0.00,Tech Income,,,0,Office or home network installation and configuration,false,Service

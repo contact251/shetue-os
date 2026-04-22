@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNG Division | Shetue OS</title>
+    <!-- We reuse the master CSS for variables and base layout, plus specific CNG styles -->
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="cng.css">
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="division-body">
+    <div class="os-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="brand">
+                <div class="brand-icon" style="background: linear-gradient(135deg, #f59e0b, #d97757); box-shadow: 0 0 20px rgba(245, 158, 11, 0.4);"><i class="ri-gas-station-line"></i></div>
+                <h1>CNG Division</h1>
+            </div>
+            
+            <nav class="nav-menu">
+                <p class="nav-title">OPERATIONS</p>
+                <a href="#" class="nav-link active"><i class="ri-dashboard-3-line"></i> Operations Hub</a>
+                <a href="#" class="nav-link"><i class="ri-file-list-3-line"></i> Sales Log</a>
+                <a href="#" class="nav-link"><i class="ri-speed-up-line"></i> Compressor Status</a>
+                <a href="#" class="nav-link"><i class="ri-team-line"></i> Shift Management</a>
+            </nav>
+            
+            <div style="flex:1"></div>
+            <!-- Back to Master OS -->
+            <a href="../../index.html" class="nav-link" style="color:#ef4444; border:1px solid rgba(239, 68, 68, 0.2);"><i class="ri-arrow-left-box-line"></i> Back to Master OS</a>
+        </aside>
+
+        <!-- Main Dashboard -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="header-title">
+                    <h2 style="font-family: var(--font-display); font-weight: 600;">CNG Operations Tracker</h2>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Real-time tracking of pressure and daily revenue.</p>
+                </div>
+                <div class="header-widgets">
+                    <span class="status-badge sync-active"><i class="ri-loop-right-line"></i> Zoho Synced</span>
+                </div>
+            </header>
+
+            <div class="dashboard-scroll">
+                
+                <!-- KPI Widgets -->
+                <div class="metric-grid">
+                    <div class="metric-card glass-panel" style="--accent: #10b981;">
+                        <div class="metric-header">
+                            <h3><i class="ri-money-dollar-circle-line"></i> Today's Sales</h3>
+                        </div>
+                        <h1 class="metric-value" id="val-sales">Loading...</h1>
+                        <p class="metric-footer text-green"><i class="ri-arrow-up-line"></i> 12% from yesterday</p>
+                    </div>
+
+                    <div class="metric-card glass-panel" style="--accent: #f59e0b;">
+                        <div class="metric-header">
+                            <h3><i class="ri-alert-line"></i> Current Due Collection</h3>
+                        </div>
+                        <h1 class="metric-value" id="val-due">Loading...</h1>
+                        <p class="metric-footer text-yellow">Pending from 4 clients</p>
+                    </div>
+
+                    <div class="metric-card glass-panel" style="--accent: #3b82f6;">
+                        <div class="metric-header">
+                            <h3><i class="ri-dashboard-2-line"></i> Compressor Pressure</h3>
+                        </div>
+                        <h1 class="metric-value">3400 PSI</h1>
+                        <p class="metric-footer text-blue">Running Optimal</p>
+                    </div>
+                </div>
+
+                <!-- Operations & Shifts -->
+                <div class="content-split">
+                    <!-- Left: Recent Sales Log -->
+                    <section class="log-section glass-panel">
+                        <div class="section-top">
+                            <h3>Recent Transactions</h3>
+                            <button class="action-btn"><i class="ri-download-cloud-2-line"></i> Export</button>
+                        </div>
+                        <div class="table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Vehicle No</th>
+                                        <th>Volume (m3)</th>
+                                        <th>Amount</th>
+                                        <th>Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="sales-table">
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <!-- Right: Quick Actions & Shift -->
+                    <section class="side-panel">
+                        <div class="glass-panel widget-box">
+                            <h3>Current Shift</h3>
+                            <div class="shift-info">
+                                <div class="avatar-large"><i class="ri-user-2-fill"></i></div>
+                                <div>
+                                    <h4>Rahim Uddin</h4>
+                                    <p>Manager (Day Shift)</p>
+                                </div>
+                            </div>
+                            <button class="shift-btn">End Shift & Report</button>
+                        </div>
+
+                        <div class="glass-panel widget-box">
+                            <h3>Quick Actions</h3>
+                            <div class="action-grid">
+                                <button class="q-btn primary"><i class="ri-add-line"></i> Add Credit Sale</button>
+                                <button class="q-btn"><i class="ri-file-paper-2-line"></i> Create Expense</button>
+                                <button class="q-btn"><i class="ri-oil-line"></i> Update Meter</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="cng.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+ID,Phase,Task Name,Predecessor ID,Weightage (%),Progress (%),Status,Target Date
+1001,Civil,Masonry Wall Construction,,15%,100%,Completed,2026-03-30
+1002,Civil,Internal Plastering,1001,10%,90%,Ongoing,2026-04-15
+2001,MEP,Electrical Conduit & Boxing,1002,10%,10%,Starting,2026-04-20
+2002,MEP,Internal Wiring (Cables),2001,15%,0%,Planned,2026-04-30
+2003,MEP,Switch and Socket Installation,3001,5%,0%,Planned,2026-05-15
+3001,Finishing,Internal Painting (Primer),1002,8%,0%,Planned,2026-05-05
+3002,Finishing,Flooring and Tiles,1200,20%,0%,Planned,2026-05-20
+3003,Finishing,Final Paint Coat,3002,7%,0%,Planned,2026-06-01
+4001,External,Exterior WeatherCoat Painting,1001,10%,0%,Planned,2026-05-10

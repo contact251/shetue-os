@@ -1,0 +1,24 @@
+Bill Number,Vendor Name,Bill Date,Due Date,Payment Terms,Item Name,Quantity,Rate,Discount,Notes,Tags - Divisions
+PO-FUEL-0001,Padma Oil Company Ltd,01/01/2026,08/01/2026,Net 7,Diesel,15000,105.00,0,Opening fuel stock purchase - delivery challan POCL/DC/001,Filling Station
+PO-FUEL-0002,Meghna Petroleum Ltd,01/01/2026,08/01/2026,Net 7,Octane,4000,116.00,0,Opening octane stock - delivery challan MPL/DC/001,Filling Station
+PO-FUEL-0002,Meghna Petroleum Ltd,01/01/2026,08/01/2026,Net 7,Petrol,2500,119.00,0,Opening petrol stock - delivery challan MPL/DC/001,Filling Station
+PO-LUB-0001,Total Energies BD,02/01/2026,16/01/2026,Net 14,Lubricant Oil,200,280.00,0,Engine oil stock replenishment - various grades,Filling Station
+PO-CNG-0001,Bangladesh Oil Gas Corp,01/01/2026,16/01/2026,Net 15,CNG Gas,1000,35.00,0,CNG gas opening stock - meter delivery BOGC/001,CNG Refuelling
+PO-LPG-0001,Bashundhara LPG Ltd,02/01/2026,09/01/2026,Net 7,LPG Gas,800,82.00,0,LPG cylinder delivery - Ref BLPG/INV/001,LPG Auto Gas
+PO-FEED-0001,Nourish Feed Industries,03/01/2026,18/01/2026,Net 15,Fish Feed Starter,150,1450.00,0,Fish feed raw stock - opening and January supply,Feed Mills
+PO-FEED-0001,Nourish Feed Industries,03/01/2026,18/01/2026,Net 15,Fish Feed Grower,250,1320.00,0,Fish feed grower stage batch,Feed Mills
+PO-FEED-0001,Nourish Feed Industries,03/01/2026,18/01/2026,Net 15,Fish Feed Finisher,300,1200.00,0,Fish feed finisher batch,Feed Mills
+PO-MED-0001,Square Pharmaceuticals,03/01/2026,02/02/2026,Net 30,Paracetamol 500mg,100,85.00,0,Monthly medicine supply - Square PO/INV/JAN001,Pharmacy
+PO-MED-0001,Square Pharmaceuticals,03/01/2026,02/02/2026,Net 30,Metformin 500mg,60,110.00,0,Diabetes medication stock,Pharmacy
+PO-MED-0001,Square Pharmaceuticals,03/01/2026,02/02/2026,Net 30,Amlodipine 5mg,40,155.00,0,Hypertension medication stock,Pharmacy
+PO-MED-0001,Square Pharmaceuticals,03/01/2026,02/02/2026,Net 30,Antacid Suspension,80,65.00,0,OTC medicines stock,Pharmacy
+PO-MED-0001,Square Pharmaceuticals,03/01/2026,02/02/2026,Net 30,Vitamin C 500mg,80,95.00,0,Supplement stock,Pharmacy
+PO-MED-0002,Beximco Pharmaceuticals,04/01/2026,03/02/2026,Net 30,Amoxicillin 500mg,50,195.00,0,Antibiotic stock - Beximco INV/JAN002,Pharmacy
+PO-MED-0002,Beximco Pharmaceuticals,04/01/2026,03/02/2026,Net 30,Azithromycin 500mg,35,245.00,0,Antibiotic supply January,Pharmacy
+PO-MED-0003,Renata Limited,05/01/2026,04/02/2026,Net 30,Omeprazole 20mg,50,125.00,0,Gastric medicine stock - Renata INV/JAN001,Pharmacy
+PO-MED-0003,Renata Limited,05/01/2026,04/02/2026,Net 30,Saline Normal 1L,30,130.00,0,IV saline stock for pharmacy,Pharmacy
+PO-FUEL-0003,Padma Oil Company Ltd,10/01/2026,17/01/2026,Net 7,Diesel,8000,105.00,0,Weekly diesel resupply - delivery challan POCL/DC/008,Filling Station
+PO-LPG-0002,Bashundhara LPG Ltd,09/01/2026,16/01/2026,Net 7,LPG Gas,500,82.00,0,Weekly LPG cylinder top-up - Ref BLPG/INV/002,LPG Auto Gas
+PO-CNG-0002,Bangladesh Oil Gas Corp,08/01/2026,23/01/2026,Net 15,CNG Gas,600,35.00,0,CNG gas weekly top-up - BOGC/002,CNG Refuelling
+PO-FEED-0002,Bangladesh Fish Feed Ltd,10/01/2026,09/02/2026,Net 30,Fish Feed Grower,100,1320.00,0,Additional grower feed - second supplier,Feed Mills
+PO-FEED-0002,Bangladesh Fish Feed Ltd,10/01/2026,09/02/2026,Net 30,Fish Feed Finisher,80,1200.00,0,Additional finisher feed,Feed Mills

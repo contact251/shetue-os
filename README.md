@@ -1,71 +1,61 @@
-# 🧠 Shetue OS — Finance & Close Management System
+# Shetue OS — Unified Enterprise Operating System
+### Finance & Close Management System
 
-## 📌 Overview
+🔗 **[Live System Report & Blueprint (Notion)](https://www.notion.so/Shetue-OS-Full-System-Report-Apr-2026-578f16179ee740b79f71001c44c9d575?source=copy_link)**
 
-Shetue OS is a simple, template-based finance system built on **Zoho Books** to manage accounting, monthly close, and reporting across multiple business divisions.
+This repository acts as the central codebase and structural framework for **Shetue OS**, managing accounting, monthly close, and operational reporting across all business divisions.
 
----
+## 📌 Overview & System Principles
+* **Zoho Books** → Accounting & Source of Truth
+* **Google Sheets** → Dashboard & Reporting Layer
+* **GitHub** → System Structure, Templates & Version Control
+* **Notion & n8n** → Automations & External Platform Sync
 
-## ⚙️ Core Components
-
-* **Zoho Books** → Accounting (Source of Truth)
-* **Google Sheets** → Dashboard & Analysis
-* **GitHub** → Structure, Templates & Version Control
-
----
-## 📁 Folder Structure
-
-### `/dashboard`
-
-* Close Tracker
-* KPI Dashboard
-
-### `/zoho`
-
-* Chart of Accounts
-* Opening Balance Templates
-* Import-ready CSV files
-
-### `/reports`
-
-* Monthly Close Format
-* VAT Summary Format
-
-### `/docs`
-
-* Process Guides
-* Standard Operating Procedures (SOPs)
-
----
-
-## 🔄 Workflow
-
-Zoho Books → Export Data → Google Sheets → Review → Store in GitHub
-
-
----
-
-## 📏 System Rules
-
-* ❌ No real financial data stored in GitHub
+* ❌ **No real financial data stored in GitHub**
 * ✅ Only templates, formats, and structure
-* 🎯 Single Source of Truth = **Zoho Books**
 
 ---
 
-## 🧩 How to Use
+## 🏗️ Architecture & Directory Layout
 
-1. Setup Zoho Books with Chart of Accounts
-2. Input Opening Balances
-3. Record daily transactions
-4. Export reports (P&L, Balance Sheet)
-5. Update Google Sheets dashboard
-6. Track progress using Close Tracker
+### 📊 `/dashboard`
+*The frontend user interface connecting all databases.*
+- **`/modules`**: Core database interfaces.
+  - `/finance` (Zoho Books data integration, Daily KPI)
+  - `/engineering` (Tender Tracker, Running Projects, Document Vault)
+  - `/land` (Master Land Bank, Status Overview)
+  - `/compliance` (Digital Access, License Vault)
+  - `/tasks` (Task Manager, Global Tasks)
+- **`/control_panels`**: Dedicated operational dashboards for specific business divisions.
+  - `/cng`, `/lpg`, `/feed_mills`, `/pharmacy`, `/shetue_tech`
+
+### 🔄 `/zoho`
+*API scripts and logic for Zoho Books and Inventory.*
+- Division tags mapping and Opening balance integration scripts
+- Chart of Accounts, Import-ready CSV files
+- FIFO logic checks
+
+### 🧠 `/notion` & Automations
+*Syncing scripts mapping Notion Databases to external platforms like Zoho.*
+- n8n webhook payloads and Automated API syncs.
+
+### 📝 `/docs`
+*Centralized technical documentation and guides.*
+- Google Drive Naming Standard enforcement rules.
+- Bitwarden Password Vault management standards.
+- SOPs (Standard Operating Procedures).
+
+### 📈 `/reports`
+*Automated reporting and data models.*
+- Daily cash reconciliation logics.
+- KPI summaries, Monthly Close Format, VAT Summary Format.
 
 ---
 
 ## 📅 Monthly Close Process
-
+1. Setup Zoho Books with Chart of Accounts & Input Opening Balances.
+2. Record daily transactions.
+3. Export reports (P&L, Balance Sheet) & Update Google Sheets dashboard.
 * **T+1** → Cash & Bank Reconciliation
 * **T+2** → Revenue & Expense Check
 * **T+3** → Trial Balance Verification
@@ -74,31 +64,10 @@ Zoho Books → Export Data → Google Sheets → Review → Store in GitHub
 
 ---
 
-## 🚀 Future Plan
-
-* Automation scripts (n8n integration)
-* AI-based reporting
-* WhatsApp alert system
-
----
-
-## 🧠 System Principle
-
-* **Zoho Books = Data Source**
-* **GitHub = System Structure**
-* **Google Sheets = Reporting Layer**
-
----
-
-## 📌 Status
-
-🟡 In Setup Phase
-
----
-
-## ✅ Next Steps
-
-* [ ] Upload Chart of Accounts template
-* [ ] Add Opening Balance CSV
-* [ ] Create Close Tracker (Google Sheets)
-* [ ] Document full SOP in `/docs`
+## 🚀 Current Priority & Future Plan
+- [ ] Build out the Control Panel Web Views in `/dashboard/control_panels`
+- [ ] Prepare the `n8n` syncing scripts in `/notion`
+- [ ] Upload Chart of Accounts template & Add Opening Balance CSV
+- [ ] Create Close Tracker (Google Sheets)
+- [ ] Document full SOP in `/docs`
+- AI-based reporting & WhatsApp alert system

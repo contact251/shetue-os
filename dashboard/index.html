@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shetue OS | Master Control Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="os-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="brand">
+                <div class="brand-icon"><i class="ri-blaze-fill"></i></div>
+                <h1>Shetue OS</h1>
+            </div>
+            
+            <nav class="nav-menu">
+                <p class="nav-title">MAIN MENU</p>
+                <a href="#business-units" class="nav-link active"><i class="ri-building-4-line"></i> Business Units</a>
+                <a href="#ai-tools" class="nav-link"><i class="ri-robot-line"></i> AI Tools</a>
+                <a href="#resources" class="nav-link"><i class="ri-braces-line"></i> App & Resources</a>
+                <a href="#social" class="nav-link"><i class="ri-share-line"></i> Social Media</a>
+                <a href="#settings" class="nav-link"><i class="ri-settings-3-line"></i> Settings</a>
+            </nav>
+
+            <div class="system-status">
+                <div class="status-item">
+                    <span class="status-dot online"></span>
+                    <p>Zoho Sync</p>
+                </div>
+                <div class="status-item">
+                    <span class="status-dot pending"></span>
+                    <p>n8n Router</p>
+                </div>
+            </div>
+
+            <div class="user-card">
+                <div class="avatar"><i class="ri-user-star-line"></i></div>
+                <div class="user-info">
+                    <h4>Super Admin</h4>
+                    <p>Control Tower</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-bar">
+                <div class="search-wrap glass-panel">
+                    <i class="ri-search-line"></i>
+                    <input type="text" placeholder="Search systems, tools or divisions..." id="global-search">
+                </div>
+                <div class="header-widgets">
+                    <div class="clock glass-panel" id="os-clock">00:00</div>
+                    <button class="notification-btn glass-panel"><i class="ri-notification-4-line"></i><span class="badge">3</span></button>
+                </div>
+            </header>
+
+            <!-- Dashboard Body -->
+            <div class="dashboard-scroll">
+                
+                <!-- Business Units Section -->
+                <section id="business-units" class="section-block">
+                    <div class="section-header">
+                        <h2><i class="ri-briefcase-4-line"></i> Business Divisions</h2>
+                        <p>Core operational control panels for each unit.</p>
+                    </div>
+                    <div class="grid-container" id="grid-business">
+                        <!-- Populated via JS -->
+                    </div>
+                </section>
+
+                <!-- AI Tools Section -->
+                <section id="ai-tools" class="section-block">
+                    <div class="section-header">
+                        <h2><i class="ri-brain-line"></i> Intelligence & Agents</h2>
+                        <p>Direct launch access to AI capabilities.</p>
+                    </div>
+                    <div class="grid-container" id="grid-ai">
+                        <!-- Populated via JS -->
+                    </div>
+                </section>
+
+                <!-- Resources & Tools -->
+                <section id="resources" class="section-block">
+                    <div class="section-header">
+                        <h2><i class="ri-tools-line"></i> Corporate Resources & Management</h2>
+                        <p>Primary applications, vaults, and CRM access.</p>
+                    </div>
+                    <div class="grid-container" id="grid-resources">
+                        <!-- Populated via JS -->
+                    </div>
+                </section>
+
+                <!-- Social Media Section -->
+                <section id="social" class="section-block">
+                    <div class="section-header">
+                        <h2><i class="ri-global-line"></i> Digital & Social Presence</h2>
+                        <p>Marketing, communication, and social hubs.</p>
+                    </div>
+                    <div class="grid-container" id="grid-social">
+                        <!-- Populated via JS -->
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

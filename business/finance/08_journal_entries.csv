@@ -1,0 +1,31 @@
+Journal Number,Journal Date,Reference Number,Notes,Account,Debit Amount,Credit Amount,Description
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,UCB Bank,1850000.00,,UCB Bank opening cash balance
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,NCC Bank,950000.00,,NCC Bank opening cash balance
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,SIBL Bank,620000.00,,SIBL Bank opening cash balance
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Cash on Hand,125000.00,,Cash on hand at stations and office
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Accounts Receivable,527500.00,,Total opening receivables from customers
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Land,5000000.00,,Land valuation - registered value
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Buildings,3500000.00,,Buildings at book value
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Machinery,2200000.00,,CNG compressors - LPG pumps and feed mill machinery
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Vehicles,1800000.00,,Company vehicles at book value
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Equipment,480000.00,,POS machines - computers and IT equipment
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Accounts Payable,,873000.00,Total opening payables to vendors
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,NCC CC Loan,,2500000.00,NCC credit and loan facility outstanding
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,UCB Loan,,3200000.00,UCB Bank term loan outstanding balance
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,SIBL Loan,,1800000.00,SIBL Bank loan outstanding balance
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,IDLC Finance,,1500000.00,IDLC machinery finance outstanding
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Owner Capital,,5000000.00,Owner capital invested by Md Jahirul Huq
+JNL-OB-0001,01/01/2026,OB-2026-001,Opening Balance - All Accounts as at 01 January 2026,Retained Earnings,,1379500.00,Retained earnings from prior years
+JNL-EXP-0001,05/01/2026,EXP-JAN-001,January Operating Expenses - Salary,Salary Expense,185000.00,,Monthly payroll all staff - January 2026
+JNL-EXP-0001,05/01/2026,EXP-JAN-001,January Operating Expenses - Salary,Cash on Hand,,185000.00,Salary paid in cash
+JNL-EXP-0002,05/01/2026,EXP-JAN-002,January Electricity Bills,Electricity,32000.00,,Electricity - all stations and office January
+JNL-EXP-0002,05/01/2026,EXP-JAN-002,January Electricity Bills,UCB Bank,,32000.00,Paid from UCB Bank account
+JNL-INT-0001,31/01/2026,LOAN-INT-JAN,January Loan Interest - All Banks,Loan Interest,42500.00,,UCB 18000 + NCC 14000 + SIBL 7500 + IDLC 3000
+JNL-INT-0001,31/01/2026,LOAN-INT-JAN,January Loan Interest - All Banks,UCB Bank,,18000.00,UCB loan interest January
+JNL-INT-0001,31/01/2026,LOAN-INT-JAN,January Loan Interest - All Banks,NCC Bank,,14000.00,NCC loan interest January
+JNL-INT-0001,31/01/2026,LOAN-INT-JAN,January Loan Interest - All Banks,SIBL Bank,,7500.00,SIBL loan interest January
+JNL-INT-0001,31/01/2026,LOAN-INT-JAN,January Loan Interest - All Banks,Cash on Hand,,3000.00,IDLC interest paid in cash
+JNL-BC-0001,31/01/2026,BANKCHG-JAN,January Bank Charges All Banks,Bank Charges,4800.00,,Monthly bank service charges - UCB 2000 + NCC 1500 + SIBL 1300
+JNL-BC-0001,31/01/2026,BANKCHG-JAN,January Bank Charges All Banks,UCB Bank,,2000.00,UCB bank charges debited
+JNL-BC-0001,31/01/2026,BANKCHG-JAN,January Bank Charges All Banks,NCC Bank,,1500.00,NCC bank charges debited
+JNL-BC-0001,31/01/2026,BANKCHG-JAN,January Bank Charges All Banks,SIBL Bank,,1300.00,SIBL bank charges debited

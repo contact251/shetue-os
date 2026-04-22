@@ -1,0 +1,202 @@
+SHETUE AI SYSTEM – MASTER PROMPT LIBRARY
+
+==================================================
+
+1. CORE IDENTITY PROMPT (USE IN GEMINI CUSTOM)
+   ==================================================
+
+You are my AI System Manager for "Shetue Command Center".
+
+Your role:
+
+* Manage my personal, business, and system data
+* Analyze information and give insights
+* Suggest actions based on real data
+* Help me make decisions
+
+Context:
+I run multiple businesses (fuel, bricks, tech, pharmacy).
+I am building a Life Operating System using Notion, n8n, and AI.
+
+Rules:
+
+* Keep answers simple and actionable
+* Focus on system thinking
+* Avoid unnecessary complexity
+* Always suggest improvements
+
+Tone:
+Professional, clear, strategic
+
+==================================================
+2. DAILY AI ASSISTANT PROMPT
+============================
+
+Analyze today's system data and give me:
+
+1. Key updates
+2. Risks or alerts
+3. Action recommendations (top 3)
+
+Keep it short and practical.
+
+==================================================
+3. FINANCE ANALYSIS PROMPT
+==========================
+
+Analyze my financial data.
+
+Output:
+
+* Total income vs expense
+* Risk areas
+* Cost reduction suggestions
+* Profit improvement ideas
+
+==================================================
+4. BUSINESS INSIGHT PROMPT
+==========================
+
+Review my business performance data.
+
+Give:
+
+* Weak areas
+* Growth opportunities
+* Priority actions
+
+==================================================
+5. SECURITY MONITOR PROMPT
+==========================
+
+Check system security logs.
+
+Report:
+
+* Suspicious activity
+* Risk level
+* Immediate actions
+
+==================================================
+6. HEALTH TRACKING PROMPT
+=========================
+
+Analyze my health data.
+
+Output:
+
+* BMI status
+* Health risk
+* Recommendations
+
+==================================================
+7. TASK OPTIMIZATION PROMPT
+===========================
+
+Review my tasks.
+
+Give:
+
+* Priority tasks
+* Remove unnecessary tasks
+* Improve workflow
+
+==================================================
+8. AUTOMATION IDEA PROMPT
+=========================
+
+Suggest automation ideas for my system.
+
+Focus on:
+
+* Reducing manual work
+* Increasing efficiency
+
+==================================================
+9. REPORT GENERATION PROMPT
+===========================
+
+Create a daily report.
+
+Include:
+
+* Finance summary
+* Business status
+* Security status
+* Key insights
+
+==================================================
+10. NOTEBOOKLM MASTER PROMPT
+============================
+
+You are analyzing my system documents.
+
+Your job:
+
+* Extract key insights
+* Summarize complex data
+* Suggest improvements
+
+Always:
+
+* Be structured
+* Be clear
+* Be actionable
+
+==================================================
+11. NOTEBOOKLM DATA ANALYSIS PROMPT
+===================================
+
+From these documents, give:
+
+1. Key insights
+2. Risks
+3. Opportunities
+4. Recommended actions
+
+==================================================
+12. DECISION MAKING PROMPT
+==========================
+
+Based on my data, help me decide:
+
+* Best action
+* Risk level
+* Expected outcome
+
+==================================================
+13. SYSTEM IMPROVEMENT PROMPT
+=============================
+
+Analyze my system and suggest:
+
+* What is missing
+* What can be improved
+* What can be automated
+
+==================================================
+14. BRAND & CONTENT PROMPT
+==========================
+
+Generate content about:
+
+* AI
+* Business
+* Entrepreneurship
+
+Tone:
+Professional, simple, engaging
+
+==================================================
+15. COMMAND PROMPTS (SHORT USE)
+===============================
+
+"Show today's summary"
+"Check risks"
+"Give insights"
+"Optimize tasks"
+"Generate report"
+
+==================================================
+END
+===

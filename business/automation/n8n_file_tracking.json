@@ -1,0 +1,63 @@
+[
+  {
+    "parameters": {
+      "path": "shetue-upload",
+      "options": {}
+    },
+    "id": "webhook-trigger",
+    "name": "Webhook",
+    "type": "n8n-nodes-base.webhook",
+    "typeVersion": 1,
+    "position": [250, 300],
+    "webhookId": "shetue-upload"
+  },
+  {
+    "parameters": {
+      "resource": "databasePage",
+      "operation": "create",
+      "databaseId": {
+        "__rl": true,
+        "value": "={{$json[\"database_id\"]}}",
+        "mode": "id"
+      },
+      "propertiesUi": {
+        "propertyValues": [
+          {
+            "property": "File Name",
+            "title": "={{$json[\"file_name\"]}}"
+          },
+          {
+            "property": "Category",
+            "selectValue": "={{$json[\"category\"]}}"
+          },
+          {
+            "property": "Location",
+            "selectValue": "PC"
+          },
+          {
+            "property": "Drive Link",
+            "url": "={{$json[\"drive_link\"]}}"
+          },
+          {
+            "property": "Status",
+            "selectValue": "Active"
+          },
+          {
+            "property": "Notes",
+            "richText": "={{$json[\"notes\"]}}"
+          }
+        ]
+      }
+    },
+    "id": "notion-node",
+    "name": "Notion",
+    "type": "n8n-nodes-base.notion",
+    "typeVersion": 2,
+    "position": [500, 300],
+    "credentials": {
+      "notionApi": {
+        "id": "YOUR_NOTION_CREDENTIAL_ID"
+      }
+    }
+  }
+]
